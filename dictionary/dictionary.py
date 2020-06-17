@@ -11,5 +11,5 @@ def translate(word):
 
 while(True):
     word = input('Enter Word:')
-
+    word=word.lower()
     print(translate(word))
